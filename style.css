@@ -311,3 +311,22 @@ button{
     border-radius: 10px;
     margin-left: 40px;
 }
+
+
+
+/* contact */
+#contact{
+    background-color: var(--color-dark-pink);
+    margin: auto;
+}
+
+.contact__email,
+.contact__links{
+    font-size: var(--font-medium);
+}
+
+.contact__links i:hover{
+    transform: rotateZ(10deg);
+    transition-duration: 200ms;
+    color: var(--color-yellow);
+}
